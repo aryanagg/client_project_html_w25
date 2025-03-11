@@ -23,7 +23,7 @@ nav ul{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 5px, solid, #FFCB05;
+    border: 5px solid #FFCB05;
     padding-bottom: 3%;
 }
 
@@ -73,13 +73,12 @@ p{
 
 .grid p {
     text-align: center;
-    text-justify: center;
     margin: 2%;
     place-content: center;
 }
 
 section{
-    border: #FFCB05, 5px, solid;
+    border: #FFCB05 5px solid;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 10%;
@@ -102,7 +101,7 @@ footer img{
 }
 
 footer{
-    border: #FFCB05, 5px, solid;
+    border: #FFCB05 5px solid;
     border-width: 5px 0px 0px;
     padding-top: 2%;
 }
