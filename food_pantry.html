@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Food Pantry Details</title>
 </head>
 <body>
 
     <header>
-        <a href = "">Skip to Main Content</a>
+        <a class = "skip" href = "#main">Skip to Main Content</a>
               <nav>
                   <ul>
                       <li><a href = "index.html">Home</a></li>
@@ -20,23 +22,41 @@
               <h1>Food Pantry Details</h1>
       
           </header>
-          <main>
+          <main id="main">
             <section>
                 <h2>What the Maize and Blue Cupboard Provides</h2>
                 
                 
                 <h3>Food</h3>
-                <p>This includes produce, dairy, meat, bread, frozen, and shelf-stable food (rice, canned food, tuna, etc.).</p>
+                <div class="grid">
+                <p>Produce</p>
+                <p>Dairy</p>
+                <p>Meat</p>
+                <p>Bread</p>
+                <p>Frozen food</p>
+                <p>Shelf-stable food</p>
+                </div>
                 <h3>Kitchen and Cooking</h3>
-                <p>Items such as dishes, pots, pans, silverware, Tupperware, cutting boards, knives, and more.</p>
+                <div class="grid odd">
+                <p>Dishes</p>
+                <p>Pots</p>
+                <p>Pans</p>
+                <p>Silverware</p>
+                <p>Tupperware</p>
+                <p>Knives</p>
+                <p>Cutting boards</p>
+                </div>
                 <h3>Personal and Household</h3>
-                <p>Items such as trash bags, toilet paper, cleaning supplies, hygine products, school supplies, baby items, and more.</p>
+                <div class="grid">
+                <p>Trash bags</p>
+                <p>Toilet paper</p> 
+                <p>Cleaning supplies</p>
+                <p>Hygine products</p>
+                <p>School supplies</p>
+                <p>Baby items</p>
+                </div>
                 <h3>Support</h3>
-                <p>Guidance towards resources such as CAPS, the Dean of Students and Financial Aid, and SNAP (Michigan's food program).</p>
-
-                <img src="images/betsy.jpeg" alt="A picture of Betsy Barbour Hall where the cupboard is located">
-
-                
+                <p>Guidance towards resources such as CAPS, the Dean of Students and Financial Aid, and SNAP (Michigan's food program).</p>                
             </section>
             <br>
             <section>
@@ -58,6 +78,8 @@
 
                 <h3>Contact Info:</h3>
                 <p>Phone: (734)-936-2794</p>
+
+                <img src="images/betsy.jpeg" alt="A picture of Betsy Barbour Hall where the cupboard is located">
     
             </section>
     

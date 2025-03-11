@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
 <body>
 
     <header>
-  <a href = "">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+  <a class = "skip" href = "#main">Skip to Main Content</a>
+        <img class = "img" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -21,37 +23,35 @@
         <h1>Student Success Portal</h1>
 
     </header>
-    <main>
+    <main id = "main">
         <section>
             <h2>Welcome to the UM Grad Success Navigator</h2>
             <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
             <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
-            <ol>
-                <li>Advising Resources</li>
-                <li>Food Access</li>
-                <li>Mental Health Support</li>
-                <li>Community Resources</li>
-                <li>Important Contacts</li>
-            </ol>
+            <div class="grid odd" >
+                <p>Advising Resources</p>
+                <p>Food Access</p>
+                <p>Mental Health Support</p>
+                <p>Community Resources</p>
+                <p>Important Contacts</p>
+            </div>
         </section>
         <section>
             <h2>Physical Health</h2>
             <p>Keeping your body healthy is essential for success. The University of Michigan offers numerous resources to help you stay in top physical condition:</p>
             <article>
                 <h3>University Health Service (UHS)</h3>
+                <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
                 <figure>
                     <img src="images/UHS.jpg" alt="University Health Services building">
-                    <figcaption>University Health Services Building</figcaption>
                 </figure>
-                <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
             </article>
             <article>
                 <h3>Recreational Sports</h3>
-                <figure>
-                    <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
-                    <figcaption>UMSI out in the fall!</figcaption>
-                </figure>
                 <p>Participate in various fitness programs, sports clubs, and use of gym facilities to stay active and healthy.</p>
+                <figure>
+                    <img class = "img" src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
+                </figure>
             </article>
         </section>
         
