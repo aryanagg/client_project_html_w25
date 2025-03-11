@@ -91,6 +91,22 @@ ul{
     line-height: 110%;
 }
 
+footer ul li{
+    display: inline-block;
+    padding-left: 2%;
+}
+footer img{
+    float: inline-end;
+    width: 10%;
+    padding-right: 2%;
+}
+
+footer{
+    border: #FFCB05, 5px, solid;
+    border-width: 5px 0px 0px;
+    padding-top: 2%;
+}
+
 *{
     background-color: #00274C;
     color: #FFCB05;
