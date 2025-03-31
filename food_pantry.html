@@ -14,7 +14,7 @@
               <nav>
                   <ul>
                       <li><a href = "index.html">Home</a></li>
-                      <li><a href = "food_pantry.html">Food Pantry</a></li>
+                      <li class = current><a href = "food_pantry.html">Food Pantry</a></li>
                       <li><a href = "academic_advising.html">Academic Advising Information</a></li>
                       <li><a href = "student_support.html">Student Support Resources</a></li>
                   </ul>
@@ -25,67 +25,66 @@
           <main id="main">
             <section>
                 <h2>What the Maize and Blue Cupboard Provides</h2>
-                
-                
-                <h3>Food</h3>
-                <div class="grid">
-                <p>Produce</p>
-                <p>Dairy</p>
-                <p>Meat</p>
-                <p>Bread</p>
-                <p>Frozen food</p>
-                <p>Shelf-stable food</p>
-                </div>
-                <h3>Kitchen and Cooking</h3>
-                <div class="grid odd">
-                <p>Dishes</p>
-                <p>Pots</p>
-                <p>Pans</p>
-                <p>Silverware</p>
-                <p>Tupperware</p>
-                <p>Knives</p>
-                <p>Cutting boards</p>
-                </div>
-                <h3>Personal and Household</h3>
-                <div class="grid">
-                <p>Trash bags</p>
-                <p>Toilet paper</p> 
-                <p>Cleaning supplies</p>
-                <p>Hygine products</p>
-                <p>School supplies</p>
-                <p>Baby items</p>
-                </div>
-                <h3>Support</h3>
-                <p>Guidance towards resources such as CAPS, the Dean of Students and Financial Aid, and SNAP (Michigan's food program).</p>                
+                    <div class = outer>
+                        <h3>Food</h3>
+                        <div class="grid">
+                            <p>Produce</p>
+                            <p>Dairy</p>
+                            <p>Meat</p>
+                            <p>Bread</p>
+                            <p>Frozen food</p>
+                            <p>Shelf-stable food</p>
+                        </div>
+                        <h3>Kitchen and Cooking</h3>
+                        <div class="grid odd">
+                            <p>Dishes</p>
+                            <p>Pots</p>
+                            <p>Pans</p>
+                            <p>Silverware</p>
+                            <p>Tupperware</p>
+                            <p>Knives</p>
+                            <p>Cutting boards</p>
+                        </div>
+                        <h3>Personal and Household</h3>
+                        <div class="grid">
+                            <p>Trash bags</p>
+                            <p>Toilet paper</p> 
+                            <p>Cleaning supplies</p>
+                            <p>Hygine products</p>
+                            <p>School supplies</p>
+                            <p>Baby items</p>
+                        </div>
+                        <h3>Support</h3>
+                            <p>Guidance towards resources such as CAPS, the Dean of Students and Financial Aid, and SNAP (Michigan's food program).</p>     
+                    </div>           
             </section>
             <br>
-            <section>
+            <section class = "information">
                 <h2>Information</h2>
-
-                <h3>Hours: </h3> 
-                <p>Sunday: 2pm - 6pm</p>
-                <p>Monday - Thursday: 3pm - 7pm</p>
-                <p>Friday: 12pm - 7pm</p>
-                <p>Saturday: Closed</p>
-
-    
-                <h3>Location: </h3> 
-                <p> Basement of the Betsy Barbour Residence Hall - enter through the Maynard entrance.</p>
-                <p> 420 S State St Ann Arbor, MI 48109</p>
-
-                <h3>How to use:</h3>
-                <p>Sign up for an appointment in advance. You can make an appointment at the <a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2025-01">Maize and Blue Cupboard Website</a>.</p>
-
-                <h3>Contact Info:</h3>
-                <p>Phone: <a href="tel:+7349362794">(734)-936-2794</a></p>
-
+                    <div class="time">
+                        <h3>Hours: </h3> 
+                            <p>Sunday: 2pm - 6pm</p>
+                            <p>Monday - Thursday: 3pm - 7pm</p>
+                            <p>Friday: 12pm - 7pm</p>
+                            <p>Saturday: Closed</p>  
+                    </div>
+                    <div class="details">
+                        <h3>Location: </h3> 
+                            <p> Basement of the Betsy Barbour Residence Hall - enter through the Maynard entrance.</p>
+                            <p> 420 S State St Ann Arbor, MI 48109</p>
+                        <h3>How to use:</h3>
+                            <p>Sign up for an appointment in advance. You can make an appointment at the <a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2025-01">Maize and Blue Cupboard Website</a>.</p>
+                        <h3>Contact Info:</h3>
+                            <p>Phone: <a href="tel:+7349362794">(734)-936-2794</a></p>
+                    </div>      
+        
                 <img src="images/betsy.jpeg" alt="A picture of Betsy Barbour Hall where the cupboard is located">
     
             </section>
     
         </main>
         <footer>
-            <p>UMSI Student Success Portal</p>
+            <p>UMSI Student Success Portal © Copyrights&nbsp;<span id="year"></span></p>
             <img class = "img" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -95,7 +94,6 @@
             </ul>
             
         </footer>
-    
+    <script src="js/script.js"></script>
 </body>
-
 </html>
